@@ -3,8 +3,6 @@ import "./App.css";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 
-import { SomeElement } from "@profile/refolly-components-prototype";
-
 function App() {
   const [count, setCount] = useState(0);
 
@@ -19,7 +17,6 @@ function App() {
         </a>
       </div>
       <h1>Vite + React</h1>
-      <SomeElement />
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
